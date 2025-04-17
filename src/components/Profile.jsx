@@ -6,7 +6,7 @@ export default function Profile(props) {
             <div>
                 <img src={image} alt="user avatar" />
                 <p>{name}</p>
-                <p>"@"{tag}</p>
+                <p>@{tag}</p>
                 <p>{location}</p>
             </div>
             <ul>

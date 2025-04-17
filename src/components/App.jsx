@@ -1,9 +1,14 @@
 // import clsx from "clsx";
 // import css from "../components/App.module.css"
+
 import Profile from "./Profile";
-import userData from "../userData.json"
 import FriendList from "./FriendList";
+import TransactionHistory from "./TransactionHistory";
+
 import friends from "../userFriends.json"
+import transactions from "../transactions.json"
+import userData from "../userData.json"
+
 export default function App() {
   return (
      <>
@@ -14,9 +19,8 @@ export default function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <>
       <FriendList friends={friends} />
-    </>
+      <TransactionHistory items={transactions} />
     </>
   );
 }

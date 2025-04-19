@@ -1,13 +1,12 @@
-// import clsx from "clsx";
 // import css from "../components/App.module.css"
 
-import Profile from "./Profile";
-import FriendList from "./FriendList";
-import TransactionHistory from "./TransactionHistory";
+import Profile from "../Profile/Profile";
+import FriendList from "../FriendList/FriendList";
+import TransactionHistory from "../TransactionHistory/TransactionHistory";
 
-import friends from "../userFriends.json"
-import transactions from "../transactions.json"
-import userData from "../userData.json"
+import friends from "../../userFriends.json"
+import transactions from "../../transactions.json"
+import userData from "../../userData.json"
 
 export default function App() {
   return (

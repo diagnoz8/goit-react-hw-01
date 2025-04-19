@@ -1,0 +1,11 @@
+ .isOnline{
+    color: green;
+ }
+ .isNotOnline{
+    color: red;
+ }
+.friendCard{
+   text-align: center;
+ border: black 1px solid ;
+ padding: 10px;
+}

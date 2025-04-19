@@ -1,0 +1,26 @@
+.container{
+    width: 275px;
+    margin: 30px;
+    padding: 30px;
+    border: black 1px solid;
+    text-align: center;
+}
+.image{
+    border-radius: 100px;
+    background-color: gray;
+}
+.name{
+    font-weight: bold;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    border: black 1px solid;
+    padding: 5px;
+    background-color: lightgrey;
+}
